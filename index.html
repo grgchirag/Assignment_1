@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- carousel link start -->
+    <link rel="stylesheet" href="cssfiles/owl.carousel.css">
+    <!-- <link rel="stylesheet" href="cssfiles/owl.theme.green.css"> -->
+    <script src="jsfiles/jquery.min.js"></script>
+    <script src="jsfiles/owl.carousel.min.js"></script>
+    <!-- carousel link end -->
+    <link rel="stylesheet" href="cssfiles/style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins:ital,wght@1,200;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <header class="py-4 md:py-0">
+        <nav class="flex items-center justify-between px-8 h-16 md:px-10 lg:px-20">
+            <div class="float-right ms-auto me-[30%]">
+                <a href="index.html"><img src="images/Logo.png" alt="" class="  md:w-36 md:ms-0"></a>
+            </div>
+
+            <div
+                class="dropdown_menu absolute -top-full left-[0px] w-full bg-white flex flex-col items-center py-4 md:static md:items-end">
+                <ul class="flex flex-col gap-3 md:flex-row md:justify-between">
+                    <li class="md:me-2 lg:me-5">Customers</li>
+                    <li class="md:me-2 lg:me-5">Vendors</li>
+                    <li class="md:me-2 lg:me-5">Resources</li>
+                    <li><a href=""><button class="bg_primary text-white px-5 py-1">Get a quote</button></a></li>
+                </ul>
+            </div>
+
+            <div class="toggle_button md:hidden p-1 rounded-md" style="border: 1px solid black;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-menu">
+                    <line x1="4" x2="20" y1="12" y2="12" />
+                    <line x1="4" x2="20" y1="6" y2="6" />
+                    <line x1="4" x2="20" y1="18" y2="18" />
+                </svg>
+            </div>
+        </nav>
+        <script>
+            const toggleBtn = document.querySelector(".toggle_button");
+            const dropdown = document.querySelector(".dropdown_menu");
+            toggleBtn.addEventListener("click", () => {
+                dropdown.classList.toggle('top-16');
+            });
+
+        </script>
+    </header>
+    <!-- navbar end -->
+
+    <!-- Main Section -->
+    <section class="bg_primary md:flex py-16 px-8 md:px-[4vw]">
+        <!-- left section -->
+        <div class="text-white md:max-w-[45%] flex flex-col justify-center items-center md:items-start">
+
+            <h1 class="text-[7vw] md:text-[3vw] font-bold text-center md:text-start leading-snug md:leading-tight Myriad_Pro">Unleash
+                Your Vision: <br>
+                Instant Quotations from
+                Right Developers of your
+                Choice</h1>
+            <p class="text-[3vw] md:text-[1vw]  py-3 mb-6">Your Perfect Development Partners are here</p>
+            <div>
+                <button class=" bg-[#fdc959] relative text-black rounded-3xl py-2 px-4 text-[3vw] md:text-[1.3vw]"><span class="me-8">Get a quote</span> 
+                    <span class="border border-black rounded-2xl absolute right-2 top-[0.4em] p-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right "><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                    </span>
+                </button>
+                <button class="bg-none border rounded-3xl py-2  sm:ms-3 px-4 text-[3vw] md:text-[1.3vw]">Register for FREE LEADS</button>
+            </div>
+        </div>
+        <!-- right section -->
+        <div class="md:w-[85%] ms-auto relative ">
+            <div class="mt-8 mb-8 md:mt-0 md:mb-0">
+                <span class="absolute invisible md:visible top-[8vw] left-[20.5vw] text-white bg-[#fdc959] rounded-2xl  lg:p-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right"><path d="m7 7 10 10"/><path d="M17 7v10H7"/></svg>
+                </span>
+                <ul class="flex flex-row gap-2 justify-center relative flex-wrap">
+                    <li class=" my-2 md:m-0 md:absolute top-[11.5vw] left-[7vw] lg:left-[8.5vw]"><span class="font-bold text_primary bg-white py-3 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-[1vw] rounded-2xl border-3  border_primary">&#x2022; No technical know-how required</span></li>
+                    <span class="absolute top-[7vw] right-[5vw] text-white bg-[#fdc959] rounded-3xl  p-2 md:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-left"><path d="M7 17V7h10"/><path d="M17 17 7 7"/></svg>
+                    </span>
+                    <li class="my-2 md:m-0 md:absolute top-[15vw] left-[-2.5vw] lg:left-[-2vw]"><span class="font-bold text_primary bg-white py-3 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-[1vw] rounded-2xl border-3  border_primary">&#x2022; Ensuring quick and straightforward order placement</span></li>
+                    <li class="my-2 md:m-0 md:absolute top-[18.5vw] left-[-4.5vw] lg:left-[-3.5vw]"><span class="font-bold text_primary bg-white py-3 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-[1vw] rounded-2xl border-3  border_primary">&#x2022; Transparent pricing and timelines, no 3rd party involvement</span></li>
+                    <li class="my-2 md:m-0 md:absolute top-[22vw] left-[-2.5vw] lg:left-[-2vw]"><span class="font-bold text_primary bg-white py-3 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-[1vw] rounded-2xl border-3  border_primary">&#x2022; Following industry standards of coding and deployment</span></li>
+                </ul>
+            </div>
+            <div>
+                <img src="images/girl with lappy.png" class="md:max-w-[35vw] ms-auto" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Main Section end -->
+
+    <!-- Ecom Experience Section Start -->
+    <section style="height: 150px;"></section>
+    <!-- Ecom Experience Section End -->
+
+    <!-- Solve Section Start -->
+    <section class="bg_secondary py-12">
+        <h1 class="font-bold text-center text-3xl mb-8">Business need be solve</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item px-8 pt-0">
+                <div class="px-8 text-white py-6 rounded-xl  rounded-tr-none bg_primary relative">
+                    <h1 class=" text-2xl">Studio Store</h1>
+                    <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  </p>
+                    <button class="w-full relative border rounded-3xl py-2 text-[3vw] md:text-[1.3vw]"><p class="ps-4 text-left">Learn More</p> 
+                        <span class="border border-white rounded-2xl absolute right-2 top-[0.4em] p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right "><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                        </span>
+                    </button>
+                    <div class="absolute top-0 right-0 bg_secondary w-[63px] h-[40px] rounded-bl-xl">
+                        <div class="flex px-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot text_primary"><circle cx="12.1" cy="12.1" r="4"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot text_primary"><circle cx="12.1" cy="12.1" r="4"/></svg>
+                        </div>
+                        <div class="absolute top-0  right-[88%] bg_primary w-[10px] h-[38px] rounded-tr-xl"></div>
+                        <div class="absolute  bottom-[0] right-0 bg_primary w-[62px] h-[10px] rounded-tr-xl"></div>
+                        <div class="absolute  bottom-[7px] left-[7px] bg_primary w-[10px] h-[10px] rounded-bl-md"></div>
+                        <div class="absolute  bottom-[10px] left-[8px] bg_secondary w-[10px] h-[10px] rounded-bl-md"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item px-8 pt-0">
+                <div class="px-8 text-white py-6 rounded-xl rounded-tr-none bg_primary relative">
+                    <h1 class=" text-2xl">Studio Store</h1>
+                    <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  </p>
+                    <button class="w-full relative border rounded-3xl py-2 text-[3vw] md:text-[1.3vw]"><p class="ps-4 text-left">Learn More</p> 
+                        <span class="border border-white rounded-2xl absolute right-2 top-[0.4em] p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right "><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                        </span>
+                    </button>
+                    <div class="absolute top-0 right-0 bg_secondary w-[63px] h-[40px] rounded-bl-xl">
+                        <div class="flex px-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot text_primary"><circle cx="12.1" cy="12.1" r="4"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dot text_primary"><circle cx="12.1" cy="12.1" r="4"/></svg>
+                        </div>
+                        <div class="absolute top-0  right-[88%] bg_primary w-[10px] h-[38px] rounded-tr-xl"></div>
+                        <div class="absolute  bottom-[0] right-0 bg_primary w-[62px] h-[10px] rounded-tr-xl"></div>
+                        <div class="absolute  bottom-[7px] left-[7px] bg_primary w-[10px] h-[10px] rounded-bl-md"></div>
+                        <div class="absolute  bottom-[10px] left-[8px] bg_secondary w-[10px] h-[10px] rounded-bl-md"></div>
+                    </div>
+                </div>
+            </div>        
+        </div>
+        <script>
+            $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            smartSpeed: 1500,
+            animateIn: 'linear',
+            animateOut: 'linear',
+            autoplayHoverPause: true,
+            responsive: {
+            0: {
+            items: 1
+            },
+            600: {
+            items: 2
+            },
+            1000: {
+            items: 3
+            }
+            }
+            })
+            </script>
+    </section>
+    <!-- Solve Section Ends -->
+<hr>
+
+<section style="height: 500px;"></section>
+
+<!-- youtube video start -->
+<section class="bg-black md:grid grid-cols-3 py-28 px-8 md:px-[4vw]">
+    <!-- left section -->
+    <div class="text-white mx-auto flex flex-col justify-center px-8 md:pe-20 items-center md:items-start">
+
+        <h1 class="text-[7vw] md:text-[1vw] font-bold text-center md:text-start text_primary  Myriad_Pro">Introduction</h1>
+        <h1 class="text-[7vw] md:text-[2vw] font-bold text-center md:text-start  md:leading-tight Myriad_Pro">Revolutionary way to <br>
+            build the web</h1>
+        <p class="text-[3vw] md:text-[0.8vw] py-3  mb-6">Experience a web development revolution with our innovative method. Say goodbye to old constraints and embrace a new era of efficient web building.</p>
+        <button class="w-full bg_primary relative rounded-3xl py-2 text-[3vw] md:text-[1.3vw]"><p class="ps-4 text-left">Learn More</p> 
+            <span class="border border-white rounded-2xl absolute right-2 top-[0.4em] p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right "><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </span>
+        </button>
+        <div>
+        </div>
+    </div>
+    <!-- right section -->
+    <div class="col-span-2 mx-auto w-full mt-8 md:mt-0 ">
+        <iframe width="100%" class="border-2 rounded-lg border-[#fdc959]" style="outline: 4px solid #fdc959;"  height="315" src="https://www.youtube.com/embed/lRakPN1rugQ?si=O3gYsCftxQNKcSaC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+    </div>
+</section>
+<!-- youtube video end -->
+
+<!-- percentage section -->
+<section class="p-8 flex md:justify-evenly items-center md:flex-row flex-col">
+    <div class="px-8 my-8 w-[300px] text-center">
+        <h1 class="text-5xl font-bold text_primary">90 <span >%</span></h1><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, magnam.</p>
+    </div>
+    <div class="border-[1.5px] w-[15%] md:w-0 md:h-[50px]"></div>
+    <div class="px-8 my-8 w-[300px] text-center">
+        <h1 class="text-5xl font-bold text_primary">40 <span >%</span></h1><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, magnam.</p>
+    </div>
+    <div class="border-[1.5px] w-[15%] md:w-0 md:h-[50px]"></div>
+    <div class="px-8 my-8 w-[300px] text-center">
+        <h1 class="text-5xl font-bold text_primary">70 <span >%</span></h1><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, magnam.</p>
+    </div>
+</section>
+<!-- percentage section -->
+
+<!-- review section -->
+<section class="py-8 bg-white ">
+    <h1 class="text-5xl font-bold text-center">Reviews</h1>
+    <div class="relative py-40">
+        <div class="bg_primary h-[100px]">
+        </div>
+        <div class="mt-[-250px]" >
+            <div class="owl-carousel owl-theme py-18" >
+                <div class="item px-8 pt-0 hover_animate_scale h-[400px] flex items-center" >
+                    <div class=" p-4 border  border-2 border-violet-300  rounded-2xl bg-white">
+                        <img src="images/profile1.jpg" class="rounded-[50%]  w-[70px] h-[70px]" alt="">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, architecto!</p>
+                    </div> 
+                </div>
+                <div class="item px-8 pt-0 hover_animate_scale h-[400px] flex items-center" >
+                    <div class=" p-4 border  border-2 border-violet-300  rounded-2xl bg-white">
+                        <img src="images/profile1.jpg" class="rounded-[50%]  w-[70px] h-[70px]" alt="">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, architecto!</p>
+                    </div> 
+                </div>
+                
+               
+            </div>
+            <script>
+                $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                smartSpeed: 1500,
+                animateIn: 'linear',
+                animateOut: 'linear',
+                autoplayHoverPause: true,
+                responsive: {
+                0: {
+                items: 1
+                },
+                600: {
+                items: 2
+                },
+                1000: {
+                items: 3
+                }
+                }
+                })
+                </script>
+        </div>
+    </div>
+</section>
+<!-- review section -->
+
+<!-- contact section -->
+<section class="h-[500px] bg-white"></section>
+<!-- contact section -->
+
+</body>
+
+</html>

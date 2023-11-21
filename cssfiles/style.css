@@ -1,0 +1,22 @@
+.Myriad_Pro{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.bg_primary{
+    background-color: #0495ff;
+}
+.bg_secondary{
+    background-color: #e8f5ff;
+}
+.text_primary{
+    color: #0495ff;
+}
+.border_primary{
+    border: 2px solid #0495ff;
+}
+.hover_animate_scale :hover{
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+}
+.hover_animate_scale div :hover{
+    transform: scale(1);
+}
