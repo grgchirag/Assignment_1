@@ -1,6 +1,12 @@
 .Myriad_Pro{
     font-family: 'Noto Sans JP', sans-serif;
 }
+button, h1, p{
+    font-family:  sans-serif;
+}
+.forbes_font>p{
+font-family: 'Playfair Display', serif;
+}
 .bg_primary{
     background-color: #0495ff;
 }
