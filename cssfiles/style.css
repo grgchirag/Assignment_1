@@ -5,6 +5,10 @@ button, h1, p{
     font-family:  sans-serif;
 }
 .forbes_font>p{
+font-family: 'Inter', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
 .bg_primary{
