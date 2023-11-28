@@ -25,6 +25,9 @@
         *{
             user-select: none;
         }
+        img{
+            object-fit: cover;
+        }
     </style>
 </head>
 
@@ -67,51 +70,47 @@
     </header>
     <!-- navbar end -->
     <!-- Main Section -->
-    <section class="bg_primary md:flex py-16 px-2 md:px-[4vw]">
+    <section class="bg_primary lg:flex py-16 px-2 md:px-[4vw]">
         <!-- left section -->
-        <div class="text-white md:max-w-[45%] flex flex-col justify-center items-center md:items-start">
+        <div class="text-white md:px-20 lg:px-0 lg:max-w-[45%] flex flex-col justify-center items-center md:items-start">
 
-            <h1 class="text-4xl md:text-4xl font-bold text-center md:text-start leading-snug md:leading-tight Myriad_Pro">Unleash
+            <h1 class="text-4xl md:text-3xl lg:text-5xl font-bold text-center md:text-start leading-snug md:leading-tight Myriad_Pro">Unleash
                 Your Vision: <br>
                 Instant Quotations from
                 Right Developers of your
                 Choice</h1>
-            <p class="text-sm sm:text-sm lg:text-lg py-3 mb-6">Your Perfect Development Partners are here</p>
+            <p class="text-sm sm:text-sm md:text-sm lg:text-xl py-3 mb-6">Your Perfect Development Partners are here</p>
             <div>
-                <button class=" bg-[#fdc959] relative text-black rounded-full py-4 px-4 md:px-3 lg:px-5 text-sm md:text-lg"><span class="me-8 button_font">Get a Quote</span> 
-                    <span class="border border-black rounded-3xl absolute right-3 top-3 lg:top-3 p-1">
+                <button class=" bg-[#fdc959] relative text-black rounded-full py-2 px-4 md:px-4 lg:px-5 text-sm md:text-lg"><span class="me-8 button_font">Get a Quote</span> 
+                    <span class="border border-black rounded-3xl absolute right-3 top-1 md:top-2 lg:top-3 p-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right "><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
                     </span>
                 </button>
-                <button class="bg-none border rounded-full py-4  sm:ms-3 px-4 md:px-3 lg:px-5 text-sm md:text-lg">Register for FREE LEADS</button>
+                <button class="bg-none border rounded-full py-2 sm:ms-3 px-4 md:px-4 lg:px-5 text-sm md:text-lg">Register for FREE LEADS</button>
             </div>
         </div>
         <!-- right section -->
-        <div class="md:w-[85%] ms-auto relative ">
-            <div class="mt-8 mb-8 md:mt-0 md:mb-0">
-                <span class="absolute invisible md:visible md:top-[6.8vw] lg:top-[7.2vw] md:left-[19.6vw] lg:left-[20vw] text-white bg-[#fdc959] rounded-3xl  lg:p-1">
+        <div class="lg:w-[85%] ms-auto relative ">
+            <div class="mt-8 mb-8 lg:mt-0 lg:mb-0">
+                <span class="absolute invisible lg:visible md:top-[6.8vw] lg:top-[7.2vw] md:left-[19.6vw] lg:left-[20vw] text-white bg-[#fdc959] rounded-3xl  lg:p-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right"><path d="m7 7 10 10"/><path d="M17 7v10H7"/></svg>
                 </span>
                 <ul class="flex flex-row gap-2 justify-center relative flex-wrap">
-                    <li class=" my-2 md:m-0 md:absolute top-[11.5vw] left-[7vw] lg:left-[8.5vw]"><span class="font-medium text_primary bg-white py-3 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-[1vw] rounded-2xl border-3  border_primary">&#x2022; No technical know-how required</span></li>
-                    <span class="absolute top-[13vw] right-[3vw] text-white bg-[#fdc959] rounded-3xl  p-2 md:hidden">
+                    <li class=" my-2 md:m-0 lg:absolute top-[11.5vw] left-[7vw] lg:left-[11vw]"><span class="font-medium text_primary bg-white py-2 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-xs rounded-2xl border-3  border_primary">&#x2022; No technical know-how required</span></li>
+                    <span class="absolute top-[13vw] right-[3vw] text-white bg-[#fdc959] rounded-3xl  p-2 lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-left"><path d="M7 17V7h10"/><path d="M17 17 7 7"/></svg>
                     </span>
-                    <li class="my-2 md:m-0 md:absolute top-[15vw] left-[-2.5vw] lg:left-[-2vw]"><span class="font-medium text_primary bg-white py-3 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-[1vw] rounded-2xl border-3  border_primary">&#x2022; Ensuring quick and straightforward order placement</span></li>
-                    <li class="my-2 md:m-0 md:absolute top-[18.5vw] left-[-4.5vw] lg:left-[-3.5vw]"><span class="font-medium text_primary bg-white py-3 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-[1vw] rounded-2xl border-3  border_primary">&#x2022; Transparent pricing and timelines, no 3rd party involvement</span></li>
-                    <li class="my-2 md:m-0 md:absolute top-[22vw] left-[-2.5vw] lg:left-[-2vw]"><span class="font-medium text_primary bg-white py-3 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-[1vw] rounded-2xl border-3  border_primary">&#x2022; Following industry standards of coding and deployment</span></li>
+                    <li class="my-2 md:m-0 lg:absolute top-[15vw] left-[-2.5vw] lg:left-[2vw]"><span class="font-medium text_primary bg-white py-2 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-xs rounded-2xl border-3  border_primary">&#x2022; Ensuring quick and straightforward order placement</span></li>
+                    <li class="my-2 md:m-0 lg:absolute top-[18.5vw] left-[-4.5vw] lg:left-[1vw]"><span class="font-medium text_primary bg-white py-2 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-xs rounded-2xl border-3  border_primary">&#x2022; Transparent pricing and timelines, no 3rd party involvement</span></li>
+                    <li class="my-2 md:m-0 lg:absolute top-[22vw] left-[-2.5vw] lg:left-[2.5vw]"><span class="font-medium text_primary bg-white py-2 px-4 md:py-1 md:px-2 text-[1.8vw] md:text-xs rounded-2xl border-3  border_primary">&#x2022; Following industry standards of coding and deployment</span></li>
                 </ul>
             </div>
             <div>
-                <img src="images/girl with lappy.png" class="md:max-w-[35vw] ms-auto" alt="">
+                <img src="images/girl with lappy.png" class="lg:max-w-[35vw] ms-auto" alt="">
             </div>
         </div>
     </section>
     <!-- Main Section end -->
-
-
-
-
     <!-- Ecom Experience Section Start -->
     <section>
         <div class="flex flex-col md:flex-row justify-evenly flex-wrap py-4 px-4 md:px-14 items-center ">
@@ -132,10 +131,6 @@
         </div>
     </section>
     <!-- Ecom Experience Section End -->
-
-
-
-
 
     <!-- Solve Section Start -->
     <section class="bg_secondary py-12">
@@ -211,9 +206,6 @@
     </section>
     <!-- Solve Section Ends -->
 <hr>
-
-
-
 
 <!-- Gallery Section Start -->
 <section class="py-14 px-4 md:px-10">
@@ -323,6 +315,7 @@
     </div>
 </section>
 <!-- Gallery Section End -->
+
 <!-- youtube video start -->
 <section class="bg-black md:grid grid-cols-5 py-40 px-8 md:px-[4vw]">
     <!-- left section -->
@@ -365,29 +358,26 @@
 </section>
 <!-- percentage section -->
 
-
-
-
 <!-- review section -->
-<section>
+<section class="p-6">
     <h1 class="text-5xl font-bold text-center">Reviews</h1>
     <div class="relative pt-40">
         <div class="bg_primary h-[100px]">
         </div>
         <div class="mt-[-250px]" >
             <div class="owl-carousel owl-theme py-18" >
-                <div class="item px-8 pt-0 hover_animate_scale h-[400px] flex items-center" >
-                    <div class=" p-4 border  border-2 border-violet-300  rounded-2xl bg-white">
-                        <img src="images/profile1.jpg" class="rounded-[50%]  w-[70px] h-[70px]" alt="">
-                        <h1>Lorem Ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, architecto!</p>
+                <div class="item pt-0 px-8 hover_animate_scale h-[400px] flex items-center" >
+                    <div class=" p-8 border  border-2  border-violet-300  rounded-2xl bg-white">
+                        <img src="images/profile1.jpg" class="rounded-[50%] w-[90px] h-[90px]" alt="">
+                        <h1 class="font-bold py-4">Lorem Ipsum</h1>
+                        <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, architecto!</p>
                     </div> 
                 </div>
-                <div class="item px-8 pt-0 hover_animate_scale h-[400px] flex items-center" >
-                    <div class=" p-4 border  border-2 border-violet-300  rounded-2xl bg-white">
-                        <img src="images/profile1.jpg" class="rounded-[50%]  w-[70px] h-[70px]" alt="">
-                        <h1>Lorem Ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, architecto!</p>
+                <div class="item pt-0 px-8 hover_animate_scale h-[400px] flex items-center" >
+                    <div class=" p-8 border  border-2  border-violet-300  rounded-2xl bg-white">
+                        <img src="images/profile1.jpg" class="rounded-[50%]  w-[90px] h-[90px]" alt="">
+                        <h1 class="font-bold py-4">Lorem Ipsum</h1>
+                        <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, architecto!</p>
                     </div> 
                 </div>
                 
@@ -421,10 +411,6 @@
     </div>
 </section>
 <!-- review section -->
-
-
-
-
 
 <!-- contact section -->
 <section class="py-8">
